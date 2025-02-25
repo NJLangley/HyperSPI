@@ -7,6 +7,7 @@ set(CMAKE_SYSTEM_NAME Generic)
 set(BOOT_WORKAROUND ON)
 
 # Default output data pin for the non-SPI LED strips (only for sk6812/ws2812b)
+# Changed to pin 16 (from 14) for using a QuinLED DIG UNO as a fuse / level shifter / 12v supply
 set(OUTPUT_DATA_PIN 16)
 
 # Use multi-segment, starting index of second led strip or OFF to disable
